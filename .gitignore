@@ -1,0 +1,28 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar builds de React
+build/
+dist/
+
+# Ignorar logs
+*.log
+
+# Ignorar configurações de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar cache do Docker
+**/.dockerignore
+.docker/
+
+# Ignorar arquivos do editor (VS Code, etc.)
+.vscode/
+.idea/
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.swp
